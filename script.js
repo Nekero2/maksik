@@ -73,7 +73,7 @@ function generateQuotes() {
     quoteElement.className = 'quote';
     quoteElement.innerHTML = `
       <p>${generateRandomQuote()}</p>
-      <div class="author">— Максим Курчэўскi</div>
+      <div class="author">— Максик</div>
     `;
     container.appendChild(quoteElement);
   }
